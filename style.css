@@ -1,0 +1,54 @@
+body {
+    color: #47597e;
+    background-color: #faf3f3;
+    font-family: "Arial", "sans-serif", cursive;
+    font-size: 18px; 
+    /* font size specified to 18px for readability.  */
+}
+
+header {
+  color: #da7f8f;
+  font-family: 'Merienda', cursive;
+  font-size: 36px;
+  /* kept header font size the same, clear font style with good spacing chosen. */
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #47597e;
+    color: #47597e;
+    text-align: center;
+}
+
+hr:after {
+    content: "ꕥ";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #faf3f3;
+}
+
+h2 {
+  font-family: 'Merienda', 'sans-serif', cursive;
+  /* added sans-serif in list of font family for accessability */
+}
+
+#donation {
+  color: #da7f8f;
+  font-weight: bold;
+  /* made the font-weight bold for easier reading of important content */
+}
+
+h5 {
+  text-decoration: line-through;
+}
+
+address {
+  font-weight: bold;
+}
+
+/* There was a typo for the Ceramic Potted Herbs, fixed that. Then I rearranged the specials to show flowers as the preview picture to the site versus what looks like just a plant. */
